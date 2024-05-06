@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Online Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    
+  </head>
+
+  <body>
+    <h1 id="title">JavaScript Online Quiz</h1>
+    <div id="question-container">
+      <p id="question"></p>
+      <div id="choices"></div>
+    </div>
+
+    <div id="button-group">
+      <button id="prev" onclick="showPreQuestion()">
+        Previous Question
+      </button>
+      <button id="next" onclick="showNextQuestion()">Next Question</button>
+      <button id="submit" onclick="submitQuestion()">
+        Submit Quiz
+      </button>
+    </div>
+    
+    <p id="note"></p>
+
+  </body>
+</html>

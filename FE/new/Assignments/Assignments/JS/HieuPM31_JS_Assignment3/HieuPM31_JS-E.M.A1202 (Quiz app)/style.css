@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#question-container {
+    width: 30%;
+    margin: auto;
+    padding: 0 25px 40px 10px;
+    border: 4px solid rgba(121, 121, 121, 0.349);
+    color: black;
+    font-weight: bold;
+}
+
+#choices label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#button-group {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* margin-left: 42%; */
+}
+
+#note {
+    text-align: center;
+}
+
+h3{
+    color: rgb(0, 255, 0);
+    text-align: center;
+}
+#submit{
+    display: none;
+}
